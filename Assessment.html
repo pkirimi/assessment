@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+</head>
+<body>
+    <h2>Question 1</h2>
+    <label for="exercise">How often do you excercise?</label> <br>
+    <input type="radio" id="daily" name="excercise" value="daily">
+    <label for="excercise"> Daily</label> <br>
+    <input type="radio" id="weekly" name="excercise" value="weekly">
+    <label for="excercise">Weekly</label> <br>
+    <input type="radio" id="monthly" name="excercise" value="monthly">
+    <label for="excercise">Monthly</label> <br>
+    <input type="radio" id="rarely" name="excercise" value="rarely">
+    <label for="excercise">Rarely</label> <br>
+    <h2>Question 2</h2>
+    <label for="etype">What type of excercise do you prefer?</label> <br>
+    <input type="checkbox" id="cardio" name="etype" value="cardio">
+    <label for="etype">Cardio</label> <br>
+    <input type="checkbox" id="strength" name="etype" value="strength">
+    <label for="etype">Strength Training</label> <br>
+    <input type="checkbox" id="yoga" name="etype" value="yoga">
+    <label for="etype">Yoga</label> <br>
+    <h2>Question 3</h2>
+    <label for="range">On a scale from 1 to 10, how would you rate your overall fitness level?</label> <br>
+    <input type="range" id="range" name="range" min="1" max="10"> <br>
+    <h2>Question 4</h2>
+    <label for="motivation">What motivates you to exercise? (Select one or more)</label> <br>
+    <select name="motivation" id="motivation">
+        <option value=""></option>
+        <option value="health">Health</option>
+        <option value="Weight">Weight Loss</option>
+        <option value="stress">Stress relief</option>
+        <option value="competition">Competition</option>
+    </select>
+    <h2>Question 5</h2>
+    <label for="comment">Any additional comments or suggestions?</label> <br>
+   <textarea name="comment" id="comment" cols="50" rows="10"></textarea>
+</body>
+</html>
